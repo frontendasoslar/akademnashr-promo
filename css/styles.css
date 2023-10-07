@@ -1,3 +1,9 @@
+ body {
+  font-family: "roboto", "arial", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+ }
+
 .clas-1 {
   width: 92px;
   height: 15px;
@@ -7,7 +13,7 @@
   text-decoration: none;
   color: #000;
   text-transform: uppercase;
-
+  font-family: "roboto", "arial", sans-serif ;
 }
 .clas-2 {
  width: 155;
@@ -29,8 +35,10 @@
  width: 339px;
  height: 96px;
  font-weight: 700;
-font-size: 30px;
-line-height: 40px;
+ font-size: 30px;
+ line-height: 40px;
+ font-family: "Roboto Condensed", "Arial" sans-serif;
+
 }
 .clas-6 {
   width: 387px;
@@ -53,10 +61,11 @@ line-height: 40px;
 .clas-9{
   width: 435px;
   height: 172px;
-  font-weight: 700;
-  font: 72px;
+  font-weight:bold;
+  font size: 72px;
   line-height: 40px;
   color: #000;
+  font-family: "Roboto Condensed", "Arial" sans-serif;
 }
 .clas-10{
   width: 340px;
@@ -73,6 +82,7 @@ line-height: 40px;
   font-size: 24px;
   line-height: 28.8px;
   color: #000;
+  font-family: "Roboto Condensed", "Arial" sans-serif;
 }
 .clas-13{
   width: 314px;
@@ -98,6 +108,7 @@ line-height: 40px;
   font-size: 40px;
   line-height: 48px;
   color: #fff;
+  font-family: "Roboto Condensed", "Arial" sans-serif;
 }
 .clas-17{
   width: 440px;
@@ -122,7 +133,6 @@ line-height: 40px;
 }
 .clas-21 {
   width: 124px;
-  height: 19px;
   font-weight: 400;
   font-size: 16px;
   line-height: 18.75px;
@@ -146,10 +156,7 @@ line-height: 40px;
   height: 2px;
   background-color: rgba(37, 36, 32, 0.5);
 }
-ul a {
-  text-decoration: none;
-  color: #000;
-}
+
 ul {
   list-style: none;
 }
