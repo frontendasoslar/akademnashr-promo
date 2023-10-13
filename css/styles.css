@@ -1,162 +1,152 @@
  body {
   font-family: "roboto", "arial", sans-serif;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.5px;
  }
+  .logo {
+    width: 250px;
+  }
 
-.clas-1 {
-  width: 92px;
-  height: 15px;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 15.23px;
+  /* naigation */
+  ul {
+  list-style-type: none;
+ }
+
+  .text-nav {
   text-decoration: none;
+  font-size: 13px;
+  line-height: 1.5;
+  letter-spacing: 1px;
   color: #000;
   text-transform: uppercase;
-  font-family: "roboto", "arial", sans-serif ;
-}
-.clas-2 {
- width: 155;
- height: 39px;
- background-color: #ff7500;
- color: #fff;
- text-decoration: none;
-}
-.clas-3 {
-  background-color: #000;
+ }
 
-}
-.clas-4 {
-  width: 387px;
-  height: 304px;
+ .Registration {
+  width: 180px;
+  background-color: #ff7500;
+  font-family: "roboto", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
   color: #fff;
-}
-.clas-5 {
- width: 339px;
- height: 96px;
- font-weight: 700;
- font-size: 30px;
- line-height: 40px;
- font-family: "Roboto Condensed", "Arial" sans-serif;
+  text-decoration: none;
+ }
 
-}
-.clas-6 {
-  width: 387px;
-  height: 96px;
-  font-weight: 400;
+ .hero-line {
+  background-color: #ff7500;
+  width: 150px;
+ }
+
+ .section-1 {
+  background-color:#000;
+ }
+
+ .book {
+   width: 350px;
+   font-family: "Roboto Condensed", "Arial", sans-serif;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 48px;
+   letter-spacing: 0.5px;
+   color: #fff;
+ }
+
+ .abaut-book {
+  width: 400px;
+  font-family: "Roboto", "Arial", serif;
   font-size: 16px;
-  line-height: 24px;
-  text-align: justify;
-}
-.clas-7 {
- width: 152px;
- height: 39px;
- background-color: #ff7500;
- color: #fff;
- text-decoration: none;
-}
-.clas-8 {
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  color: #fff;
+ }
+ .odrer {
+  width: 200px;
+  background-color: #ff7500;
+  color: #fff;
+  text-decoration: none;
+  font-family: "roboto", "arial", serif;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+ }
+
+ .section-2 {
   background-color: #fff;
-}
-.clas-9{
-  width: 435px;
-  height: 172px;
-  font-weight:bold;
-  font size: 72px;
-  line-height: 40px;
-  color: #000;
-  font-family: "Roboto Condensed", "Arial" sans-serif;
-}
-.clas-10{
-  width: 340px;
-  height: 245px;
-}
-.clas-11{
-  width: 340px;
-  height: 113px;
-}
-.clas-12{
-  width: 250px;
-  height: 29px;
+ }
+
+ .Question {
+  width: 400px;
+  font-family: "Roboto Condensed", serif;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 28.8px;
-  color: #000;
-  font-family: "Roboto Condensed", "Arial" sans-serif;
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: 0.5px;
 }
-.clas-13{
-  width: 314px;
-  height: 72px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: justify;
-  color: #000;
+
+.title {
+ width: 300px;
+ font-family: 'Roboto Condensed', serif;
+ font-weight: 700;
+ font-size: 24px;
+ line-height: 1.5;
+ letter-spacing: 0.5px;
+ color: #000;
 }
-.clas-14{
-  width: 1100px;
+
+.convenience {
+ width: 350px;
+ font-family: "roboto", "Aria", serif;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 1.5;
+ letter-spacing: 0.5px;
+ color: #000;
+}
+
+.section-3 {
+  width: 1300px;
   background-color: #000;
 }
-.clas-15{
-  width: 440px;
-  height: 291px;
+
+.about-the-book {
+ width: 400px;
+ font-family: 'Roboto Condensed', serif;
+ font-weight: 700;
+ font-size: 40px;
+ line-height: 48px;
+ letter-spacing: 0.5px;
+ color: #fff;
 }
-.clas-16{
-  width: 450px;
-  height: 96px;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 48px;
-  color: #fff;
-  font-family: "Roboto Condensed", "Arial" sans-serif;
+.definition {
+ width: 500px;
+ font-family: "Roboto", "Arial", serif;
+ font-weight: 400;
+ line-height: 1.5;
+ letter-spacing: 0.5px;
+ color: #fff;
 }
-.clas-17{
-  width: 440px;
-  height: 48px;
+.separately {
+  width: 500px;
+ font-family: "Roboto", "Arial", serif;
+ font-weight: 400;
+ line-height: 1.5;
+ letter-spacing: 0.5px;
+ color: #ff7500;
+}
+
+.network {
+  width: 300px;
+  font-family: "roboto", "Arial", serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
-  color: #fff;
-}
-.clas-18{
-  font-weight: bold;
-  color: #ff7500;
-}
-.clas-19{
- width: 224px;
- height: 159px;
- text-decoration: none;
-}
-.clas-20{
-  width: 224px;
- height: 159px;
-}
-.clas-21 {
-  width: 124px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 18.75px;
-  color: #000;
+  line-height: 19px;
+  letter-spacing: 0.5px;
+  color: #252420;
   text-decoration: none;
 }
-.hero-line {
- width: 80px;
- height: 3px;
- background-color: #ff7500;
-}
-.footer-color {
-  background-color: #F8F8F8;
-}
-.color-iconc {
 
-  background-color: rgba(255, 117, 0, 0.2);
-}
-.footer-line {
-  width: 1100px;
-  height: 2px;
-  background-color: rgba(37, 36, 32, 0.5);
-}
-
-ul {
-  list-style: none;
+.foot {
+ background-color: rgba(248, 248, 248, 1);
 }
