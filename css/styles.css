@@ -4,8 +4,21 @@
   line-height: 1.5;
   letter-spacing: 0.5px;
  }
+
+
+  .navigation:hover {
+    outline-color: dodgerblue;
+  }
   .logo {
     width: 250px;
+    transition: opacity 0.5s ease;
+  }
+  .logo:hover {
+    opacity: 0.8;
+  }
+
+  .logo:active {
+    opacity: 0.6;
   }
 
   /* naigation */
@@ -14,23 +27,46 @@
  }
 
   .text-nav {
+  font-family: "Roboto", "Arial", serif;
+  font-weight: 500;
   text-decoration: none;
   font-size: 13px;
   line-height: 1.5;
   letter-spacing: 1px;
   color: #000;
   text-transform: uppercase;
+  transition: color 0.5s ease, opacity 0.5s ease;
+
  }
 
+ .text-nav:hover {
+  color: rgba(255, 117, 0, 1);
+ }
+
+ .text-nav:active {
+  opacity: 0.6;
+ }
  .Registration {
+   width: 160px;
+   background-color: #ff7500;
+  transition: opacity 0.5s ease ;
+ }
+
+ .Regstration-text{
+  padding: 5px;
   width: 180px;
-  background-color: #ff7500;
   font-family: "roboto", "Arial", sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.5;
   letter-spacing: 0.5px;
   color: #fff;
   text-decoration: none;
+ }
+ .Registration:hover {
+  opacity: 0.8;
+ }
+ .Registration:active {
+  opacity: 0.6;
  }
 
  .hero-line {
@@ -60,9 +96,23 @@
   letter-spacing: 0.5px;
   color: #fff;
  }
- .odrer {
-  width: 200px;
+
+ .order {
+  width: 120px;
   background-color: #ff7500;
+  transition: 0.5s ease;
+ }
+
+ .order:hover {
+  opacity: 0.8;
+ }
+
+ .order:active {
+  opacity: 0.6;
+ }
+ .odrer-text {
+  padding: 7px;
+  width: 200px;
   color: #fff;
   text-decoration: none;
   font-family: "roboto", "arial", serif;
@@ -84,7 +134,12 @@
   line-height: 80px;
   letter-spacing: 0.5px;
 }
-
+ .iconca {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(233, 183, 139)
+  ;
+ }
 .title {
  width: 300px;
  font-family: 'Roboto Condensed', serif;
@@ -149,4 +204,26 @@
 
 .foot {
  background-color: rgba(248, 248, 248, 1);
+}
+
+.netvorks a:hover{
+ color: #ff7500;
+ opacity: 0.8;
+}
+
+.netvorks a:active{
+  opacity: 0.6;
+}
+
+.panel {
+  color: #000;
+}
+
+.panel:hover {
+  color: #ff7500;
+  opacity: 0.8;
+}
+
+.panel:active {
+  opacity: 0.6;
 }
