@@ -4,10 +4,12 @@
   line-height: 1.5;
   letter-spacing: 0.5px;
  }
+ *:focus {
+  outline: 2px dashed #ff7500;
+ }
 
-
-  .navigation:hover {
-    outline-color: dodgerblue;
+  .navigation {
+    border-top: 4px solid #ff7500;
   }
   .logo {
     width: 250px;
